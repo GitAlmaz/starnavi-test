@@ -9,10 +9,6 @@ import Alerts from '../components/Alerts'
 import Button from '../components/Button'
 import { AppContext } from '../store'
 
-type Styles = {
-	[key: string]: CSSProperties
-}
-
 type InputCustomType = {
 	value: string
 }

@@ -12,6 +12,10 @@ type Alert = {
 	col: number
 }
 
+type Styles = {
+	[key: string]: CSSProperties
+}
+
 type InitialState = {
 	data: Data
 	fields: number
